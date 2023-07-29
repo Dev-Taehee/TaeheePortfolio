@@ -1,1 +1,9 @@
-<iframe src="./우태희_포트폴리오.pdf"></iframe>
+<div id="myPdf"></div>
+<link
+  href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+  rel="stylesheet"
+/>
+<script type="text/javascript" src="./js/pdfobject.js"></script>
+<script>
+  var myPDF = PDFObject.embed("./우태희_포트폴리오.pdf", "#myPdf");
+</script>
